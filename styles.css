@@ -1,0 +1,87 @@
+@media screen and (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
+
+/*************** TAG SELECTORS ***********************/
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #352961;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5rem;
+  font-family: 'Great Vibes', cursive;
+
+}
+
+h4 {
+  font-weight: normal;
+  margin: 0 auto 20px;
+}
+
+/******************** CLASS SELECTORS *********************/
+
+/****** HEADER *******/
+.header {
+  background-color: #e6b2c6;
+  padding: 60px 50px 40px;
+  text-align: center;
+}
+
+/******* NAVBAR *********/
+.navbar {
+  background-color: #774181;
+  display: flex;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #352961;
+}
+
+/*************** CONTENT *******************/
+.row {
+  display: flex;
+}
+
+.fake-img {
+  background-color: #e6b2c6;
+  max-width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.main {
+  flex: 50%;
+  flex-wrap: wrap;
+  background-color: #f6e5e5;
+  padding: 20px;
+}
+
+.side {
+  flex: 25%;
+  flex-wrap: wrap;
+  background-color: #f6e5e5;
+  padding: 20px;
+}
+
+/******************* FOOTER ******************/
+.footer {
+  background-color: #774181;
+  color: white;
+  font-size: 0.8rem;
+  padding: 30px;
+  text-align: center;
+}
