@@ -1,7 +1,7 @@
 @media screen and (max-width: 700px) {
   .row, .navbar {
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
   }
 }
 
